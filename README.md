@@ -10,6 +10,37 @@
 
 This setup is mostly based on the conventions and the technologies I use on a regular basis, and on my own workflow. However, I though it was nice to publish it in case other developers might find its use beneficial for them or their team.
 
+## Requirements
+
+To use UFES you need to install:
+
+- [Node.js](https://nodejs.org/)
+- [A git client](http://git-scm.com/downloads)
+- [Grunt](http://gruntjs.com/getting-started#installing-the-cli)
+- [Bower](http://bower.io/#install-bower)
+- [Ruby](https://www.ruby-lang.org/en/downloads/)
+
+## How to install it
+
+The first step is to clone the repository on your local machine. To clone the repository using git execute on the CLI the command:
+
+```sh
+git clone https://github.com/AurelioDeRosa/UFES.git
+```
+
+Now, you have to install [SCSS-Lint](https://github.com/brigade/scss-lint) by running the command:
+
+```sh
+gem install scss_lint
+```
+
+Once done, move to the folder and install all the project's dependencies using [npm](https://www.npmjs.com/) and [Bower](http://bower.io/):
+
+```sh
+npm install
+bower install
+```
+
 ## Setup description
 
 The setup is based on the libraries, tools, and architecture described in the following sections.
