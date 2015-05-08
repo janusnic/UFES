@@ -1,0 +1,17 @@
+{
+  "name": "UFES",
+  "homepage": "https://github.com/AurelioDeRosa/UFES",
+  "version": "0.1.0",
+  "author": {
+    "name": "Aurelio De Rosa",
+    "email": "a.derosa@audero.it",
+    "web": "http://www.audero.it"
+  },
+  "description": "UFES is an opinionated front-end environment setup meant to help developers in writing better code by following the current best practices. The core principles of this setup are: scalability, manageability, and performance.",
+  "private": true,
+  "dependencies": {
+     "normalize-scss": "~3.0.3",
+     "modernizr": "~2.8.3"
+  },
+  "devDependencies": {}
+}
