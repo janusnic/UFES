@@ -1,5 +1,6 @@
-UFES is an opinionated front-end environment setup which focuses
-on best practices and performance.
+UFES is an opinionated front-end environment setup meant to help
+developers in writing better code by following current best practices
+and adopting the best tools the web community has to offer.
 
 Copyright (C) 2015 Aurelio De Rosa
 
